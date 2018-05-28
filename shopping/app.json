@@ -1,10 +1,10 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/user/user",
     "pages/cart/cart",
     "pages/logs/logs",
     "pages/category/category",
+    "pages/user/user",
     "pages/my/my"
 
   ],
