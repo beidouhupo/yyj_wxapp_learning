@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/imports/imports",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "网易新闻",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#b7b7b7",
+    "selectedColor": "#AB956D",
+    "borderStyle": "#f5f5f5",
+    "backgroundColor": "#f5f5f5",
+    "list": [
+      {
+        "pagePath": "pages/imports/imports",
+        "iconPath": "image/1.png",
+        "selectedIconPath": "image/1.png",
+        "text": "要闻"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/1.png",
+        "selectedIconPath": "image/1.png",
+        "text": "独家"
+      }
+    ]
+  }
+}
