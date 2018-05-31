@@ -19,13 +19,13 @@
       {
         "pagePath": "pages/imports/imports",
         "iconPath": "image/1.png",
-        "selectedIconPath": "image/1.png",
+        "selectedIconPath": "image/3.png",
         "text": "要闻"
       },
       {
         "pagePath": "pages/index/index",
-        "iconPath": "image/1.png",
-        "selectedIconPath": "image/1.png",
+        "iconPath": "image/2.png",
+        "selectedIconPath": "image/4.png",
         "text": "独家"
       }
     ]
