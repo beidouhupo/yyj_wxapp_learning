@@ -2,19 +2,20 @@
   "pages": [
     "pages/imports/imports",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/shows/show"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "网易新闻",
+    "navigationBarBackgroundColor": "#FF2D2D",
+    "navigationBarTitleText": "北斗新闻",
     "navigationBarTextStyle": "white",
-    "enablePullDownRefresh": true,
     "backgroundTextStyle": "light",
-    "backgroundColor": "#f5f5f5"
+    "backgroundColor": "#f5f5f5",
+    "enablePullDownRefresh": true
   },
   "tabBar": {
     "color": "#b7b7b7",
-    "selectedColor": "#AB956D",
+    "selectedColor": "#FF2D2D",
     "borderStyle": "#f5f5f5",
     "backgroundColor": "#f5f5f5",
     "list": [
