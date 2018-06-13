@@ -1,10 +1,13 @@
-<navigator url="/pages/shows/show?id={{ item.id }}" class="box_msg" 
-wx:for="{{articleList}}" wx:key="{{item.id}}">
-    <view class="box_msg_img">
-      <image class="box__thumb" src="/image/5.jpg" />
-    </view>
-    <view class="box_msg_text">
-      <view class="box__title">{{item.title}}</view>
-      <view class="box__index">{{item.index}}</view>
-    </view>
-</navigator>
+<view class="box">
+  <block wx:for="{{articleList}}" wx:key="{{item.id}}">
+    <navigator url="/pages/shows/show?id={{item.id}}" class="box_msg" >
+      <view class="box_msg_img">
+        <image class="box__thumb"  src="{{item.img}}"/>
+      </view>
+      <view class="box_msg_text">
+        <view class="box__title">{{item.title}}</view>
+        <view class="box__index">{{item.index}}</view>
+      </view>
+    </navigator>
+  </block>
+</view>

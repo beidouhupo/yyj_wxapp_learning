@@ -5,8 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    articleList: [],
     isLoading: true,
+    articleList: [],
     currentPage: 1,
     totalPages: 1,
     total: 0
@@ -40,10 +40,7 @@ Page({
 
   /**
    * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-  
-  },
+
 
   /**
    * 生命周期函数--监听页面隐藏
