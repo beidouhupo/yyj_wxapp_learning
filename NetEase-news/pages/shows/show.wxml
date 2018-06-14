@@ -1,5 +1,4 @@
 <view class="content">
-    {{}}
 </view>
 <view class="comment">
 </view>
